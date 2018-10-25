@@ -1,3 +1,7 @@
-<mat-card class="example-card">
-  Frog buttss
-</mat-card>
+<div class="rule-card">
+    <b>{{rule.name}}</b>
+    <div *ngIf="rule.shortDescription">
+      <p>{{rule.shortDescription}}</p>
+      <p>{{rule.fullDescription}}</p>
+    </div>
+  </div>

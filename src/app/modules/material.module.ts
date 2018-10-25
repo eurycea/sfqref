@@ -11,6 +11,9 @@ import {
   MatToolbarModule,
   MatTooltipModule,
 } from '@angular/material';
+
+import {MatGridListModule} from '@angular/material/grid-list';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -20,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCheckboxModule,
     MatCardModule,
     MatDividerModule,
+    MatGridListModule,
     MatSidenavModule,
     MatMenuModule,
     MatToolbarModule,
@@ -31,6 +35,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCheckboxModule,
     MatCardModule,
     MatDividerModule,
+    MatGridListModule,
     MatSidenavModule,
     MatMenuModule,
     MatToolbarModule,

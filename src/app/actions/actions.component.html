@@ -1,6 +1,5 @@
-<div flex="100">
-  <div *ngFor="let action of actions">
-      {{action.name}} - {{action.shortDescription}} - {{action.fullDescription}}
+<div id="rule-grid" cols="2" rowHeight="2:1">
+  <div *ngFor="let action of actions" >
+    <app-rule-card [rule]="action"></app-rule-card>
   </div>
 </div>
-
