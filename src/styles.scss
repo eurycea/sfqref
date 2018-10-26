@@ -7,6 +7,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-flow: row;
     padding: 1rem;
+    background-color: lightblue;
 }
 
 .rule-card {
@@ -14,6 +15,6 @@
     // align-items: center;
     // justify-content: center;
     padding: 5px;
-    background-color: pink; //WHY NO WORK!?!?!?!
+    background-color: rgb(204, 233, 242); 
     min-height: 100px;
 }

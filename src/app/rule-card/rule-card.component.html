@@ -1,7 +1,6 @@
-<div class="rule-card">
+<div class="rule-card" (click)="showMoreInfo()">
     <b>{{rule.name}}</b>
-    <div *ngIf="rule.shortDescription">
+    <div *ngIf="rule.shortDescription" >
       <p>{{rule.shortDescription}}</p>
-      <p>{{rule.fullDescription}}</p>
     </div>
   </div>

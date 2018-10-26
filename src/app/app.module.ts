@@ -13,11 +13,13 @@ import { MoveActionsComponent } from './move-actions/move-actions.component';
 import { OtherActionsComponent } from './other-actions/other-actions.component';
 import { ReactionsComponent } from './reactions/reactions.component';
 import { DataModule } from './data/data.module';
+import { RuleDialogComponent } from './rule-card/rule-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RuleCardComponent,
+    RuleDialogComponent,
     ActionsComponent,
     SwiftActionsComponent,
     ConditionsComponent,
@@ -33,6 +35,7 @@ import { DataModule } from './data/data.module';
     DataModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [RuleDialogComponent]
 })
 export class AppModule { }

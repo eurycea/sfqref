@@ -13,6 +13,7 @@ import {
 } from '@angular/material';
 
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatSidenavModule,
     MatMenuModule,
     MatToolbarModule,
-   MatTooltipModule,
+    MatTooltipModule,
+    MatDialogModule
   ],
   exports: [
     BrowserAnimationsModule,
@@ -40,6 +42,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatMenuModule,
     MatToolbarModule,
     MatTooltipModule,
+    MatDialogModule
   ],
 })
 export class MaterialModule { }
