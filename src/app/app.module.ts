@@ -14,6 +14,7 @@ import { OtherActionsComponent } from './other-actions/other-actions.component';
 import { ReactionsComponent } from './reactions/reactions.component';
 import { DataModule } from './data/data.module';
 import { RuleDialogComponent } from './rule-card/rule-dialog.component';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RuleDialogComponent } from './rule-card/rule-dialog.component';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    DataModule
+    DataModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
