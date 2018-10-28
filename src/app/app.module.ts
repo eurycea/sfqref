@@ -15,6 +15,7 @@ import { ReactionsComponent } from './reactions/reactions.component';
 import { DataModule } from './data/data.module';
 import { RuleDialogComponent } from './rule-card/rule-dialog.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MarkdownModule } from 'ngx-markdown';
     AppRoutingModule,
     MaterialModule,
     DataModule,
-    MarkdownModule.forRoot()
+    MarkdownModule.forRoot(),
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent],

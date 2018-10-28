@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+@import "./hamburger-settings.scss";
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
 #rule-grid {
     display: grid;
     grid-gap: 1rem;

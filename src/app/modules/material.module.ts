@@ -14,7 +14,7 @@ import {
 
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDialogModule} from '@angular/material/dialog';
-
+import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -25,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCardModule,
     MatDividerModule,
     MatGridListModule,
+    MatIconModule,
     MatSidenavModule,
     MatMenuModule,
     MatToolbarModule,
@@ -37,6 +38,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCheckboxModule,
     MatCardModule,
     MatDividerModule,
+    MatIconModule,
     MatGridListModule,
     MatSidenavModule,
     MatMenuModule,

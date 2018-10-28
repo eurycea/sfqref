@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sfqref';
+  sidenavOpen = true;
+  toggleSidenav(): void {
+    console.log('togglSidenav s');
+    this.sidenavOpen = !this.sidenavOpen;
+  }
 }
