@@ -24,7 +24,6 @@ export class AppComponent implements OnDestroy {
   }
 
   toggleSidenav(): void {
-    console.log('togglSidenav s');
     this.sidenavOpen = !this.sidenavOpen;
   }
 
